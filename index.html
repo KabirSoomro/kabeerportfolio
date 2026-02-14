@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabeer Soomro · BSCS Portfolio</title>
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/923168465697?text=Hi%20Kabeer%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!" 
+       class="floating-wa" 
+       target="_blank" 
+       title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav class="container">
+            <div class="logo">Kabeer.dev</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text animate-fade-up">
+                    <span class="greeting">👋 Assalam-o-Alaikum, I'm</span>
+                    <h1 class="glitch-text">Kabeer Soomro</h1>
+                    <h2 class="typed-text" id="typedText"></h2>
+                    <p class="hero-description">BSCS Undergraduate | Front-End Developer | Problem Solver</p>
+                    
+                    <!-- Hero Stats -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Skills</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Curiosity</span>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Work <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-outline">Hire Me</a>
+                    </div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="hero-image animate-float">
+                    <div class="image-wrapper">
+                        <img src="img1.jpeg" alt="Pic, KK" id="profileImage">
+                        <div class="experience-badge">
+                            <span class="years">2+</span>
+                            <span class="text">Years Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                
+                <div class="about-grid">
+                    <!-- About Card 1 -->
+                    <div class="about-card animate-slide-left">
+                        <h3>Who am I?</h3>
+                        <p>I'm a passionate BSCS undergraduate with a strong foundation in front-end development and a growing expertise in backend technologies. I love turning complex problems into simple, beautiful solutions.</p>
+                        
+                        <div class="personal-details">
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>BSCS (2022-2026)</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Karachi, Pakistan</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>kabeer.soomro@email.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- About Card 2 -->
+                    <div class="about-card animate-slide-right">
+                        <h3>Education & Goals</h3>
+                        <p>Currently pursuing Bachelor's in Computer Science, focusing on full-stack development. My goal is to become a versatile developer who can build impactful solutions.</p>
+                        
+                        <!-- Progress Bars -->
+                        <div class="progress-bars">
+                            <div class="progress-item">
+                                <span>BSCS Degree</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span>Front-End Mastery</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span>Backend Learning</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 40%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+        
+        <!-- Skills Grid - Dynamically populated by JS -->
+        <div class="skills-grid" id="skillsGrid"></div>
+        
+        <!-- Add Skill Button HATA DIYA GAYA -->
+    </div>
+</section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card animate-scale">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/4f46e5/ffffff?text=AI+Generator" alt="Project 1">
+                            <div class="project-overlay">
+                                <span class="project-year">2024</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>AI Image Generator</h3>
+                            <p>Python · Flask · OpenAI API</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> Code</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card animate-scale">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/db2777/ffffff?text=E-Learning" alt="Project 2">
+                            <div class="project-overlay">
+                                <span class="project-year">2024</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Learning Platform</h3>
+                            <p>React · Node.js · MongoDB</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> Code</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card animate-scale">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250/10b981/ffffff?text=Portfolio" alt="Project 3">
+                            <div class="project-overlay">
+                                <span class="project-year">2023</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Builder</h3>
+                            <p>HTML · CSS · JavaScript</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> Code</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                
+                <div class="contact-container">
+                    <!-- Contact Info -->
+                    <div class="contact-info animate-slide-left">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always interested in hearing about new opportunities, collaborations, or just tech talk.</p>
+                        
+                        <!-- Contact Details -->
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <span>Phone</span>
+                                    <a href="tel:+923168465697">+92 316 8465697</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span>Email</span>
+                                    <a href="mailto:gkabeersoomro@email.com">gkabeersoomro@email.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/share/1CKG5LAYZV/" target="_blank" class="social-link facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/kabeer_soomro55?igsh=YTFsMW45MGhwM2ow&utm_source=qr" target="_blank" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kabeer-soomro-010a42244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="social-link linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://wa.me/923168465697" target="_blank" class="social-link whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+
+                        <!-- WhatsApp CTA -->
+                        <a href="https://wa.me/923168465697?text=Hi%20Kabeer%2C%20I'm%20interested%20in%20working%20together!" 
+                           class="whatsapp-cta" 
+                           target="_blank">
+                            <i class="fab fa-whatsapp"></i> 
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <form class="contact-form animate-slide-right" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="queryType">
+                                <option value="general">General Inquiry</option>
+                                <option value="project">Project Collaboration</option>
+                                <option value="job">Job Opportunity</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Kabeer Soomro. All rights reserved.</p>
+            <p class="footer-quote">"Code is like humor. When you have to explain it, it's bad."</p>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
