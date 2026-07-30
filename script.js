@@ -220,7 +220,7 @@ document.getElementById('contactForm').addEventListener('submit', (e) => {
     */
 
     // Send email using EmailJS
-    const serviceID = 'service_omnoxbl';
+    const serviceID = 'service_g90h5pw';
     const templateID = 'template_fzteumn';
 
     const templateParams = {
