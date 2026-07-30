@@ -202,6 +202,8 @@ document.getElementById('contactForm').addEventListener('submit', (e) => {
     const queryType = document.getElementById('queryType').value;
     const message = document.getElementById('message').value;
     
+    /* 
+    --- OLD WHATSAPP CODE (Commented out for future use) ---
     // Create WhatsApp message
     const whatsappMessage = `*New Inquiry from Portfolio*%0a%0a` +
         `*Name:* ${name}%0a` +
@@ -214,9 +216,35 @@ document.getElementById('contactForm').addEventListener('submit', (e) => {
     
     // Show success message
     alert('Message prepared! You will be redirected to WhatsApp.');
+    --------------------------------------------------------
+    */
+
+    // Send email using EmailJS
+    const serviceID = 'service_g90h5pw';
+    const templateID = 'template_fzteumn';
+
+    const templateParams = {
+        from_name: name,
+        from_email: email,
+        query_type: queryType,
+        message: message,
+        to_email: 'gkabeersoomro@gmail.com'
+    };
+
+    const submitBtn = document.querySelector('#contactForm button[type="submit"]');
+    const originalBtnText = submitBtn.innerText;
+    submitBtn.innerText = 'Sending...';
     
-    // Reset form
-    e.target.reset();
+    emailjs.send(serviceID, templateID, templateParams)
+        .then(() => {
+            alert('Your message has been sent successfully to gkabeersoomro@gmail.com!');
+            e.target.reset(); // Reset form
+        }, (err) => {
+            alert('Failed to send the message. Error: ' + JSON.stringify(err));
+        })
+        .finally(() => {
+            submitBtn.innerText = originalBtnText;
+        });
 });
 
 // ==================== SMOOTH SCROLLING ====================
