@@ -237,10 +237,21 @@ document.getElementById('contactForm').addEventListener('submit', (e) => {
     
     emailjs.send(serviceID, templateID, templateParams)
         .then(() => {
-            alert('Your message has been sent successfully to gkabeersoomro@gmail.com!');
+            Swal.fire({
+                title: 'Sent Successfully!',
+                text: 'Thank you for reaching out. I will get back to you soon.',
+                icon: 'success',
+                confirmButtonColor: '#4f46e5',
+                confirmButtonText: 'Great!'
+            });
             e.target.reset(); // Reset form
         }, (err) => {
-            alert('Failed to send the message. Error: ' + JSON.stringify(err));
+            Swal.fire({
+                title: 'Oops!',
+                text: 'Something went wrong while sending the message.',
+                icon: 'error',
+                confirmButtonColor: '#ef4444'
+            });
         })
         .finally(() => {
             submitBtn.innerText = originalBtnText;
