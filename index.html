@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,12 @@
     <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Scroll Progress Bar -->
     <div class="scroll-progress" id="scrollProgress"></div>
@@ -51,7 +54,8 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="admin.html" style="color: var(--accent-primary);"><i class="fas fa-lock" style="margin-right: 5px;"></i>Admin</a></li>
+                <li><a href="admin.html" style="color: var(--accent-primary);"><i class="fas fa-lock"
+                            style="margin-right: 5px;"></i>Admin</a></li>
             </ul>
             <div class="nav-toggle" id="navToggle">
                 <i class="fas fa-bars"></i>
@@ -68,7 +72,7 @@
                     <h1 class="glitch-text">Kabeer Soomro</h1>
                     <h2 class="typed-text" id="typedText"></h2>
                     <p class="hero-description">BSCS Undergraduate | Front-End Developer | Problem Solver</p>
-                    
+
                     <!-- Hero Stats -->
                     <div class="hero-stats">
                         <div class="stat-item">
@@ -109,13 +113,20 @@
         <section id="about" class="about">
             <div class="container">
                 <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
-                
+
                 <div class="about-grid">
                     <!-- About Card 1 -->
-                    <div class="about-card animate-slide-left" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="about-card animate-slide-left" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.2">
                         <h3>Who am I?</h3>
-                        <p>Hello! I'm Kabeer Soomro, a passionate Front-End Developer and problem solver based in Karachi, Pakistan. Currently pursuing my Bachelor's in Computer Science (BSCS), I specialize in transforming complex technical challenges into seamless, intuitive, and visually stunning digital experiences. With a strong foundation in modern web technologies and a relentless curiosity for learning, my goal is to build impactful applications that not only look beautiful but perform flawlessly. When I'm not coding, I'm exploring new technologies and refining my craft.</p>
-                        
+                        <p>Hello! I'm Kabeer Soomro, a passionate Front-End Developer and problem solver based in
+                            Karachi, Pakistan. Currently pursuing my Bachelor's in Computer Science (BSCS), I specialize
+                            in transforming complex technical challenges into seamless, intuitive, and visually stunning
+                            digital experiences. With a strong foundation in modern web technologies and a relentless
+                            curiosity for learning, my goal is to build impactful applications that not only look
+                            beautiful but perform flawlessly. When I'm not coding, I'm exploring new technologies and
+                            refining my craft.</p>
+
                         <div class="personal-details">
                             <div class="detail-item">
                                 <i class="fas fa-graduation-cap"></i>
@@ -133,10 +144,12 @@
                     </div>
 
                     <!-- About Card 2 -->
-                    <div class="about-card animate-slide-right" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="about-card animate-slide-right" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.2">
                         <h3>Education & Goals</h3>
-                        <p>Currently pursuing Bachelor's in Computer Science, focusing on full-stack development. My goal is to become a versatile developer who can build impactful solutions.</p>
-                        
+                        <p>Currently pursuing Bachelor's in Computer Science, focusing on full-stack development. My
+                            goal is to become a versatile developer who can build impactful solutions.</p>
+
                         <!-- Progress Bars -->
                         <div class="progress-bars">
                             <div class="progress-item">
@@ -164,69 +177,76 @@
         </section>
 
         <!-- Skills Section -->
-<section id="skills" class="skills">
-    <div class="container">
-        <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
-        
-        <!-- Skills Grid - Dynamically populated by JS (Static fallback included) -->
-        <div class="skills-grid" id="skillsGrid">
-            <!-- Static Fallback Skills -->
-            <div class="skill-card animate-scale" data-tilt data-tilt-max="10" data-tilt-speed="400">
-                <div class="skill-icon" style="background: rgba(97, 218, 251, 0.15); color: #61dafb">
-                    <i class="fab fa-react"></i>
-                </div>
-                <h3>Frontend</h3>
-                <p>React • HTML • CSS</p>
-                <div class="skill-progress">
-                    <div class="progress" style="width: 85%; background: #61dafb"></div>
-                </div>
-            </div>
-            
-            <div class="skill-card animate-scale" data-tilt data-tilt-max="10" data-tilt-speed="400">
-                <div class="skill-icon" style="background: rgba(104, 160, 99, 0.15); color: #68a063">
-                    <i class="fab fa-node-js"></i>
-                </div>
-                <h3>Backend</h3>
-                <p>Node.js • Express</p>
-                <div class="skill-progress">
-                    <div class="progress" style="width: 70%; background: #68a063"></div>
-                </div>
-            </div>
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
 
-            <div class="skill-card animate-scale" data-tilt data-tilt-max="10" data-tilt-speed="400">
-                <div class="skill-icon" style="background: rgba(247, 223, 30, 0.15); color: #f7df1e">
-                    <i class="fab fa-js"></i>
+                <!-- Skills Grid - Dynamically populated by JS (Static fallback included) -->
+                <div class="skills-grid" id="skillsGrid">
+                    <!-- Static Fallback Skills -->
+                    <div class="skill-card animate-scale" data-tilt data-tilt-max="10" data-tilt-speed="400">
+                        <div class="skill-icon" style="background: rgba(97, 218, 251, 0.15); color: #61dafb">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3>Frontend</h3>
+                        <p>React • HTML • CSS</p>
+                        <div class="skill-progress">
+                            <div class="progress" style="width: 85%; background: #61dafb"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card animate-scale" data-tilt data-tilt-max="10" data-tilt-speed="400">
+                        <div class="skill-icon" style="background: rgba(104, 160, 99, 0.15); color: #68a063">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <h3>Backend</h3>
+                        <p>Node.js • Express</p>
+                        <div class="skill-progress">
+                            <div class="progress" style="width: 70%; background: #68a063"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card animate-scale" data-tilt data-tilt-max="10" data-tilt-speed="400">
+                        <div class="skill-icon" style="background: rgba(247, 223, 30, 0.15); color: #f7df1e">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>ES6+ • Async/Await</p>
+                        <div class="skill-progress">
+                            <div class="progress" style="width: 90%; background: #f7df1e"></div>
+                        </div>
+                    </div>
                 </div>
-                <h3>JavaScript</h3>
-                <p>ES6+ • Async/Await</p>
-                <div class="skill-progress">
-                    <div class="progress" style="width: 90%; background: #f7df1e"></div>
-                </div>
+
+                <!-- Add Skill Button HATA DIYA GAYA -->
             </div>
-        </div>
-        
-        <!-- Add Skill Button HATA DIYA GAYA -->
-    </div>
-</section>
+        </section>
 
         <!-- Experience Section -->
         <section id="experience" class="about" style="padding-top: 4rem;">
             <div class="container">
                 <h2 class="section-title">My <span class="gradient-text">Experience</span></h2>
-                
+
                 <div class="about-grid" style="grid-template-columns: 1fr;">
                     <!-- Experience Card -->
-                    <div class="about-card animate-scale" data-tilt data-tilt-max="2" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
-                        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+                    <div class="about-card animate-scale" data-tilt data-tilt-max="2" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.1">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
                             <div>
-                                <h3 style="margin-bottom: 0.5rem; color: var(--accent-primary);">Web Development Intern</h3>
-                                <h4 style="color: var(--text-primary); font-size: 1.2rem; margin-bottom: 1rem;">SYNTECXHUB</h4>
+                                <h3 style="margin-bottom: 0.5rem; color: var(--accent-primary);">Web Development Intern
+                                </h3>
+                                <h4 style="color: var(--text-primary); font-size: 1.2rem; margin-bottom: 1rem;">
+                                    SYNTECXHUB</h4>
                             </div>
-                            <span class="project-year" style="position: static; display: inline-block;">Aug 2026 - Sep 2026</span>
+                            <span class="project-year" style="position: static; display: inline-block;">Aug 2026 - Sep
+                                2026</span>
                         </div>
-                        
-                        <p style="margin-bottom: 1.5rem;">Selected for a Virtual Internship Program focusing on Web Development. Gained hands-on industry experience by working on real-world projects, building a strong professional portfolio, and applying modern web technologies.</p>
-                        
+
+                        <p style="margin-bottom: 1.5rem;">Selected for a Virtual Internship Program focusing on Web
+                            Development. Gained hands-on industry experience by working on real-world projects, building
+                            a strong professional portfolio, and applying modern web technologies.</p>
+
                         <div class="personal-details" style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
                             <div class="detail-item" style="margin-bottom: 0; padding: 0.8rem 1.2rem;">
                                 <i class="fas fa-briefcase"></i>
@@ -240,17 +260,24 @@
                     </div>
 
                     <!-- Experience Card 2 -->
-                    <div class="about-card animate-scale" data-tilt data-tilt-max="2" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1" style="margin-top: 2rem;">
-                        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+                    <div class="about-card animate-scale" data-tilt data-tilt-max="2" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.1" style="margin-top: 2rem;">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
                             <div>
-                                <h3 style="margin-bottom: 0.5rem; color: var(--accent-primary);">Full Stack Development Intern</h3>
-                                <h4 style="color: var(--text-primary); font-size: 1.2rem; margin-bottom: 1rem;">CodeAlpha</h4>
+                                <h3 style="margin-bottom: 0.5rem; color: var(--accent-primary);">Full Stack Development
+                                    Intern</h3>
+                                <h4 style="color: var(--text-primary); font-size: 1.2rem; margin-bottom: 1rem;">
+                                    CodeAlpha</h4>
                             </div>
-                            <span class="project-year" style="position: static; display: inline-block;">Aug 2026 - Sep 2026</span>
+                            <span class="project-year" style="position: static; display: inline-block;">Aug 2026 - Sep
+                                2026</span>
                         </div>
-                        
-                        <p style="margin-bottom: 1.5rem;">Engaged in a comprehensive internship emphasizing learning new skills and concepts through hands-on application. Gained deeper understanding of full stack development practices and worked on practical projects.</p>
-                        
+
+                        <p style="margin-bottom: 1.5rem;">Engaged in a comprehensive internship emphasizing learning new
+                            skills and concepts through hands-on application. Gained deeper understanding of full stack
+                            development practices and worked on practical projects.</p>
+
                         <div class="personal-details" style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
                             <div class="detail-item" style="margin-bottom: 0; padding: 0.8rem 1.2rem;">
                                 <i class="fas fa-briefcase"></i>
@@ -270,10 +297,11 @@
         <section id="projects" class="projects">
             <div class="container">
                 <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
-                
+
                 <div class="projects-grid">
                     <!-- Project 1 -->
-                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.2">
                         <div class="project-image">
                             <img src="digitallibrary.jpeg" alt="Project 1">
                             <div class="project-overlay">
@@ -285,16 +313,18 @@
                             <p>HTML · CSS · JavaScript</p>
                             <div class="project-links">
                                 <!-- <a href="https://kabirsoomro.github.io/digitallibrary/" target="_blank"><i class="fab fa-github"></i> Code</a> -->
-                                <a href="https://kabirsoomro.github.io/digitallibrary/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <a href="https://kabirsoomro.github.io/digitallibrary/" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i> Live</a>
                             </div>
                         </div>
                     </div>
 
 
 
-                    
+
                     <!-- Project 2 -->
-                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.2">
                         <div class="project-image">
                             <img src="GadgetHub.jpeg" alt="Project 2">
                             <div class="project-overlay">
@@ -306,13 +336,15 @@
                             <p>HTML · CSS · JavaScript</p>
                             <div class="project-links">
                                 <!-- <a href="https://kabirsoomro.github.io/GadgetHub/" target="_blank"><i class="fab fa-github"></i> Code</a> -->
-                                <a href="https://kabirsoomro.github.io/GadgetHub/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <a href="https://kabirsoomro.github.io/GadgetHub/" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i> Live</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Project 3 -->
-                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.2">
                         <div class="project-image">
                             <img src="Syntexhub_Landing_Page.jpeg" alt="Project 3">
                             <div class="project-overlay">
@@ -323,14 +355,17 @@
                             <h3>Syntexhub Landing Page</h3>
                             <p>HTML · CSS · JavaScript</p>
                             <div class="project-links">
-                                <a href="https://github.com/KabirSoomro/SyntexhubLandingPage" target="_blank"><i class="fab fa-github"></i> Code</a>
-                                <a href="https://kabirsoomro.github.io/SyntexhubLandingPage/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <a href="https://github.com/KabirSoomro/SyntexhubLandingPage" target="_blank"><i
+                                        class="fab fa-github"></i> Code</a>
+                                <a href="https://kabirsoomro.github.io/SyntexhubLandingPage/" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i> Live</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Project 4 -->
-                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.2">
                         <div class="project-image">
                             <img src="TodoApp.jpeg" alt="Project 4">
                             <div class="project-overlay">
@@ -341,14 +376,17 @@
                             <h3>Syntexhub TodoApp</h3>
                             <p>HTML · CSS · JavaScript</p>
                             <div class="project-links">
-                                <a href="https://github.com/KabirSoomro/Syntexhub_TodoApp" target="_blank"><i class="fab fa-github"></i> Code</a>
-                                <a href="https://kabirsoomro.github.io/Syntexhub_TodoApp/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <a href="https://github.com/KabirSoomro/Syntexhub_TodoApp" target="_blank"><i
+                                        class="fab fa-github"></i> Code</a>
+                                <a href="https://kabirsoomro.github.io/Syntexhub_TodoApp/" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i> Live</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Project 5 -->
-                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.2">
                         <div class="project-image">
                             <img src="QuizApp.jpeg" alt="Project 5">
                             <div class="project-overlay">
@@ -359,16 +397,20 @@
                             <h3>Syntexhub QuizApp</h3>
                             <p>HTML · CSS · JavaScript</p>
                             <div class="project-links">
-                                <a href="https://github.com/KabirSoomro/Syntexhub_QuizApp" target="_blank"><i class="fab fa-github"></i> Code</a>
-                                <a href="https://kabirsoomro.github.io/Syntexhub_QuizApp/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <a href="https://github.com/KabirSoomro/Syntexhub_QuizApp" target="_blank"><i
+                                        class="fab fa-github"></i> Code</a>
+                                <a href="https://kabirsoomro.github.io/Syntexhub_QuizApp/" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i> Live</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Project 6 -->
-                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.2">
                         <div class="project-image">
-                            <img src="https://via.placeholder.com/400x250/ef4444/ffffff?text=Medical+Imaging" alt="Project 6">
+                            <img src="https://via.placeholder.com/400x250/ef4444/ffffff?text=Medical+Imaging"
+                                alt="Project 6">
                             <div class="project-overlay">
                                 <span class="project-year">2026</span>
                             </div>
@@ -377,13 +419,15 @@
                             <h3>Medical Imaging Assistant</h3>
                             <p>Python · Machine Learning</p>
                             <div class="project-links">
-                                <a href="https://github.com/KabirSoomro/Medical_Imaging_Assistant" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://github.com/KabirSoomro/Medical_Imaging_Assistant" target="_blank"><i
+                                        class="fab fa-github"></i> Code</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Project 7 -->
-                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="project-card animate-scale" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                        data-tilt-glare="true" data-tilt-max-glare="0.2">
                         <div class="project-image">
                             <img src="Weather_App.jpeg" alt="Project 7">
                             <div class="project-overlay">
@@ -394,13 +438,15 @@
                             <h3>Syntexhub WeatherApp</h3>
                             <p>HTML · CSS · JavaScript</p>
                             <div class="project-links">
-                                <a href="https://github.com/KabirSoomro/Syntexhub_WeatherApp" target="_blank"><i class="fab fa-github"></i> Code</a>
-                                <a href="https://kabirsoomro.github.io/Syntexhub_WeatherApp/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <a href="https://github.com/KabirSoomro/Syntexhub_WeatherApp" target="_blank"><i
+                                        class="fab fa-github"></i> Code</a>
+                                <a href="https://kabirsoomro.github.io/Syntexhub_WeatherApp/" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i> Live</a>
                             </div>
                         </div>
                     </div>
-                    </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -408,13 +454,15 @@
         <section id="contact" class="contact">
             <div class="container">
                 <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
-                
-                <div class="contact-container" data-tilt data-tilt-max="2" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
+
+                <div class="contact-container" data-tilt data-tilt-max="2" data-tilt-speed="400" data-tilt-glare="true"
+                    data-tilt-max-glare="0.1">
                     <!-- Contact Info -->
                     <div class="contact-info animate-slide-left">
                         <h3>Let's Connect</h3>
-                        <p>I'm always interested in hearing about new opportunities, collaborations, or just tech talk.</p>
-                        
+                        <p>I'm always interested in hearing about new opportunities, collaborations, or just tech talk.
+                        </p>
+
                         <!-- Contact Details -->
                         <div class="contact-details">
                             <div class="contact-item">
@@ -428,20 +476,23 @@
                                 <i class="fas fa-envelope"></i>
                                 <div>
                                     <span>Email</span>
-                                    <a href="mailto:gkabeersoomro@email.com">gkabeersoomro@email.com</a>
+                                    <a href="mailto:gkabeersoomro@gmail.com">gkabeersoomro@gmail.com</a>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Social Links -->
                         <div class="social-links">
-                            <a href="https://www.facebook.com/share/1CKG5LAYZV/" target="_blank" class="social-link facebook">
+                            <a href="https://www.facebook.com/share/1CKG5LAYZV/" target="_blank"
+                                class="social-link facebook">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="https://www.instagram.com/kabeer_soomro55?igsh=YTFsMW45MGhwM2ow&utm_source=qr" target="_blank" class="social-link instagram">
+                            <a href="https://www.instagram.com/kabeer_soomro55?igsh=YTFsMW45MGhwM2ow&utm_source=qr"
+                                target="_blank" class="social-link instagram">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/kabeer-soomro-010a42244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="social-link linkedin">
+                            <a href="https://www.linkedin.com/in/kabeer-soomro-010a42244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                                target="_blank" class="social-link linkedin">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                             <a href="https://wa.me/923168465697" target="_blank" class="social-link whatsapp">
@@ -488,7 +539,8 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>© 2025 Kabeer Soomro. All rights reserved. | <a href="admin.html" style="color: var(--accent-primary); text-decoration: none;">Admin Login</a></p>
+            <p>© 2025 Kabeer Soomro. All rights reserved. | <a href="admin.html"
+                    style="color: var(--accent-primary); text-decoration: none;">Admin Login</a></p>
             <p class="footer-quote">"Code is like humor. When you have to explain it, it's bad."</p>
         </div>
     </footer>
@@ -499,14 +551,15 @@
     <!-- EmailJS SDK -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function() {
-            emailjs.init("zdR0_Y3ehKs93-S0c"); 
+        (function () {
+            emailjs.init("zdR0_Y3ehKs93-S0c");
         })();
     </script>
     <!-- Vanilla Tilt JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
-    
+
     <!-- External JavaScript -->
     <script src="script.js?v=6"></script>
 </body>
+
 </html>
