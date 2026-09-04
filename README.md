@@ -32,6 +32,11 @@ A modern, responsive, and beautifully designed personal portfolio website built 
 - **Medical Imaging Assistant (Python/ML)**
 - **Syntexhub WeatherApp**
 
+## 🏢 Experience
+
+- **Full Stack Development Intern** - *CodeAlpha* (Aug 2026 - Sep 2026)
+- **Web Development Intern** - *SYNTECXHUB* (Aug 2026 - Sep 2026)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
