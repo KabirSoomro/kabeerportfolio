@@ -6,10 +6,38 @@
   <strong>Crafting modern, high-performance, and immersive web experiences.</strong>
 </p>
 
-[![Live Portfolio](https://img.shields.io/badge/🌐%20Live%20Demo-kabeerportfolio-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://kabirsoomro.github.io/kabeerportfolio/)
-[![GitHub Profile](https://img.shields.io/badge/GitHub-KabirSoomro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KabirSoomro)
-[![License: MIT](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](https://opensource.org/licenses/MIT)
+<!-- Primary Action Badges -->
+  <p align="center">
+    <!-- Live Portfolio -->
+    <a href="https://kabirsoomro.github.io/kabeerportfolio/" target="_blank">
+      <img src="https://img.shields.io/badge/🌐%20Live%20Demo-kabeerportfolio-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+    </a>
+    
+    <!-- GitHub Profile -->
+    <a href="https://github.com/KabirSoomro" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-KabirSoomro-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+    </a>
 
+    <!-- LinkedIn Profile -->
+    <a href="https://www.linkedin.com/in/kabir-soomro" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn_Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+    </a>
+    
+    <!-- Watch on YouTube -->
+    <a href="paste_link_here" target="_blank">
+      <img src="https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube" />
+    </a>
+    
+    <!-- Watch on LinkedIn (Video/Post) -->
+    <a href="paste_link_here" target="_blank">
+      <img src="https://img.shields.io/badge/Watch_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Watch on LinkedIn" />
+    </a>
+
+    <!-- License: MIT -->
+    <a href="https://opensource.org/licenses/MIT" target="_blank">
+      <img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge" alt="License: MIT" />
+    </a>
+  </p>
 <br/>
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
