@@ -88,3 +88,65 @@ Designed with an obsession for sleek aesthetics, the website highlights modern U
 └── SYNTECXHUB
     └── Role: Web Development Intern (Aug 2026 – Sep 2026)
         Key Work: Landing pages, responsive client interfaces, interactive JavaScript apps
+---
+
+My Portfolio/
+├── index.html                           # Main portfolio landing page & project cards
+├── admin.html                           # Admin dashboard interface
+├── style.css                            # Complete design system, aurora gradients & themes
+├── script.js                            # Core UI interactions, theme toggle & EmailJS
+├── admin.js                             # Admin panel client-side logic
+├── update.bat                           # Automated Git commit & push script
+├── CodeAlpha_Nexus.png                  # Screenshot: Nexus Project Management
+├── CodeAlpha_Dynamic_Portfolio_...      # Screenshot: Dynamic Portfolio Builder
+├── GadgetHub.jpeg                       # Project screenshot
+├── Syntexhub_Landing_Page.jpeg          # Project screenshot
+├── TodoApp.jpeg                         # Project screenshot
+├── QuizApp.jpeg                         # Project screenshot
+├── Weather_App.jpeg                     # Project screenshot
+├── digitallibrary.jpeg                  # Project screenshot
+└── README.md                            # Documentation & overview
+
+---
+1. Clone the repository
+Bash
+git clone https://github.com/KabirSoomro/kabeerportfolio.git
+cd kabeerportfolio
+
+---
+
+2. Open in Browser
+Simply double-click index.html to open it in your browser.
+
+Or run a lightweight local web server:
+
+Bash
+# Using Python
+python -m http.server 3000
+
+# Or using Node / npx
+npx serve .
+
+---
+
+📧 EmailJS Contact Form Setup
+To link the contact form to your own inbox:
+
+Register at EmailJS.
+
+Create an Email Service (e.g., Gmail) and copy your Service ID.
+
+Create an Email Template with variables: {{name}}, {{email}}, and {{message}}.
+
+In index.html, verify the EmailJS Public Key in the init script:
+
+JavaScript
+emailjs.init("YOUR_PUBLIC_KEY");
+In script.js, ensure your SERVICE_ID and TEMPLATE_ID match your dashboard.
+
+📬 Let's Connect!
+Feel free to reach out for collaborations, freelance work, or job opportunities:
+
+📧 Email: gkabeersoomro@gmail.com
+
+📱 Phone / WhatsApp: +92 316 8465697
