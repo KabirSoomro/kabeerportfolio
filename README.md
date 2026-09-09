@@ -1,6 +1,3 @@
-یہ رہا آپ کا پورا کوڈ، بالکل صحیح اور پروفیشنل فارمیٹ میں سیٹ کیا ہوا۔ میں نے تمام حصوں کو ایک ساتھ ملا کر بہتر طریقے سے فارمیٹ کر دیا ہے تاکہ گٹ ہب (GitHub) پر یہ انتہائی خوبصورت نظر آئے:
-
-```markdown
 <div align="center">
 
 # 🌟 Ghulam Kabir Soomro — Personal Portfolio
@@ -61,15 +58,15 @@ Designed with an obsession for sleek aesthetics, the website highlights modern U
 ## 🛠️ Tech Stack & Tools
 
 <p align="center">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" /></a>
-  <a href="https://flutter.dev/"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" /></a>
-  <a href="https://dart.dev/"><img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" /></a>
-  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" /></a>
-  <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" /></a>
-  <a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" /></a>
-  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" /></a>
+  <a href="[https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)"><img src="[https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)" alt="HTML5" /></a>
+  <a href="[https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)"><img src="[https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)" alt="CSS3" /></a>
+  <a href="[https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)"><img src="[https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)" alt="JS" /></a>
+  <a href="[https://flutter.dev/](https://flutter.dev/)"><img src="[https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)" alt="Flutter" /></a>
+  <a href="[https://dart.dev/](https://dart.dev/)"><img src="[https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)" alt="Dart" /></a>
+  <a href="[https://nodejs.org/](https://nodejs.org/)"><img src="[https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)" alt="Node.js" /></a>
+  <a href="[https://www.mongodb.com/](https://www.mongodb.com/)"><img src="[https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)" alt="MongoDB" /></a>
+  <a href="[https://firebase.google.com/](https://firebase.google.com/)"><img src="[https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)" alt="Firebase" /></a>
+  <a href="[https://vercel.com/](https://vercel.com/)"><img src="[https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)" alt="Vercel" /></a>
 </p>
 
 - **Core Technologies:** Flutter, Dart, JavaScript (ES6+), React, Node.js, Express.js, Python, Java, C++
@@ -91,86 +88,3 @@ Designed with an obsession for sleek aesthetics, the website highlights modern U
 └── SYNTECXHUB
     └── Role: Web Development Intern (Aug 2026 – Sep 2026)
         Key Work: Landing pages, responsive client interfaces, interactive JavaScript apps
-
-```
-
----
-
-## 📁 Repository Structure
-
-```text
-My Portfolio/
-├── index.html                           # Main portfolio landing page & project cards
-├── admin.html                           # Admin dashboard interface
-├── style.css                            # Complete design system, aurora gradients & themes
-├── script.js                            # Core UI interactions, theme toggle & EmailJS
-├── admin.js                             # Admin panel client-side logic
-├── update.bat                           # Automated Git commit & push script
-├── CodeAlpha_Nexus.png                  # Screenshot: Nexus Project Management
-├── CodeAlpha_Dynamic_Portfolio_...      # Screenshot: Dynamic Portfolio Builder
-├── GadgetHub.jpeg                       # Project screenshot
-├── Syntexhub_Landing_Page.jpeg          # Project screenshot
-├── TodoApp.jpeg                         # Project screenshot
-├── QuizApp.jpeg                         # Project screenshot
-├── Weather_App.jpeg                     # Project screenshot
-├── digitallibrary.jpeg                  # Project screenshot
-└── README.md                            # Documentation & overview
-
-```
-
----
-
-## ⚡ Getting Started Locally
-
-This portfolio requires **no build step** or heavy dependencies. You can run it instantly:
-
-### 1. Clone the repository
-
-```bash
-git clone [https://github.com/KabirSoomro/kabeerportfolio.git](https://github.com/KabirSoomro/kabeerportfolio.git)
-cd kabeerportfolio
-
-```
-
-### 2. Open in Browser
-
-* Simply double-click `index.html` to open it in your browser.
-* **Or** run a lightweight local web server:
-
-```bash
-# Using Python
-python -m http.server 3000
-
-# Or using Node / npx
-npx serve .
-
-```
-
----
-
-## 📧 EmailJS Contact Form Setup
-
-To link the contact form to your own inbox:
-
-1. Register at [EmailJS](https://www.emailjs.com/).
-2. Create an **Email Service** (e.g., Gmail) and copy your `Service ID`.
-3. Create an **Email Template** with variables: `{{name}}`, `{{email}}`, and `{{message}}`.
-4. In `index.html`, verify the EmailJS Public Key in the init script:
-```javascript
-emailjs.init("YOUR_PUBLIC_KEY");
-
-```
-
-
-5. In `script.js`, ensure your `SERVICE_ID` and `TEMPLATE_ID` match your dashboard.
-
----
-
-## 📬 Let's Connect!
-
-Feel free to reach out for collaborations, freelance work, or job opportunities:
-
-* **📧 Email:** [gkabeersoomro@gmail.com](https://www.google.com/search?q=mailto%3Agkabeersoomro%40gmail.com)
-* **📱 Phone / WhatsApp:** [+92 316 8465697](https://www.google.com/search?q=tel:%2B923168465697)
-
----
