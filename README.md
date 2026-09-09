@@ -13,7 +13,6 @@
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn_Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kabir-soomro)
 [![Watch on YouTube](https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/bv0tS1-s3Ro?si=XsrpbkSytBhurjbn)
 [![Watch on LinkedIn](https://img.shields.io/badge/Watch_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](paste_link_here)
-[![License: MIT](https://img.shields.io/badge/License_MIT-10B981?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 </div>
 <br/>
