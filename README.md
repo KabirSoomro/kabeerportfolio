@@ -7,11 +7,14 @@
 </p>
 <div align="center">
 
-[![Live Portfolio](https://img.shields.io/badge/)](https://kabirsoomro.github.io/kabeerportfolio/)
+<div align="center">
+
+[![Live Portfolio](https://img.shields.io/badge/Live_Demo-kabeerportfolio-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://kabirsoomro.github.io/kabeerportfolio/)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-KabirSoomro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KabirSoomro)
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn_Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kabir-soomro)
 [![Watch on YouTube](https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/bv0tS1-s3Ro?si=XsrpbkSytBhurjbn)
-[![Watch on LinkedIn](https://img.shields.io/badge/Watch_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([paste_link_here)](https://lnkd.in/p/d835dgKj)
+[![Watch on LinkedIn](https://img.shields.io/badge/Watch_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](paste_link_here)
+[![License: MIT](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 </div>
 <br/>
