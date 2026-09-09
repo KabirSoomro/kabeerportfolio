@@ -51,15 +51,15 @@ Designed with an obsession for sleek aesthetics, the website highlights modern U
 
 | Project | Description | Tech Stack | Live Demo | Repository |
 | :--- | :--- | :--- | :---: | :---: |
-| **Nexus — Project Management** | Modern enterprise project management & collaboration platform with auth & dark UI | `HTML5` `CSS3` `JavaScript` `Node.js` | [🚀 Live Demo](https://code-alpha-nexus-laqo.vercel.app/) | [💻 GitHub](https://github.com/KabirSoomro/CodeAlpha_Nexus) |
-| **PortfolioAI — Dynamic Builder** | Next-gen dynamic portfolio and ATS resume builder with AI OCR extraction & PDF export | `JavaScript` `AI OCR` `CSS3` `Vercel` | [🚀 Live Demo](https://code-alpha-dynamic-portfolio-builde.vercel.app/) | [💻 GitHub](https://github.com/KabirSoomro/CodeAlpha_Dynamic-Portfolio-Builder) |
+| **Digital Library** | Interactive catalog for browsing, categorizing, and searching digital books | `HTML5` `CSS3` `JavaScript` | [🚀 Live Demo](https://kabirsoomro.github.io/digitallibrary/) | — |
 | **GadgetHub** | Tech & gadget showcase catalog with responsive product interfaces | `HTML5` `CSS3` `JavaScript` | [🚀 Live Demo](https://kabirsoomro.github.io/GadgetHub/) | — |
 | **Syntexhub Landing Page** | High-conversion agency landing page with modern micro-animations | `HTML5` `CSS3` `JavaScript` | [🚀 Live Demo](https://kabirsoomro.github.io/SyntexhubLandingPage/) | [💻 GitHub](https://github.com/KabirSoomro/SyntexhubLandingPage) |
-| **Digital Library** | Interactive catalog for browsing, categorizing, and searching digital books | `HTML5` `CSS3` `JavaScript` | [🚀 Live Demo](https://kabirsoomro.github.io/digitallibrary/) | — |
 | **Syntexhub TodoApp** | Productivity task manager featuring state persistence and task categorization | `HTML5` `CSS3` `JavaScript` | [🚀 Live Demo](https://kabirsoomro.github.io/Syntexhub_TodoApp/) | [💻 GitHub](https://github.com/KabirSoomro/Syntexhub_TodoApp) |
 | **Syntexhub QuizApp** | Dynamic quiz challenge platform with live scoring and countdown timers | `HTML5` `CSS3` `JavaScript` | [🚀 Live Demo](https://kabirsoomro.github.io/Syntexhub_QuizApp/) | [💻 GitHub](https://github.com/KabirSoomro/Syntexhub_QuizApp) |
 | **Syntexhub WeatherApp** | Real-time weather forecasting tool with dynamic climate metrics & API integration | `HTML5` `CSS3` `JavaScript` `API` | [🚀 Live Demo](https://kabirsoomro.github.io/Syntexhub_WeatherApp/) | [💻 GitHub](https://github.com/KabirSoomro/Syntexhub_WeatherApp) |
 | **Medical Imaging Assistant** | AI/ML-assisted deep learning diagnostics for medical scan analysis | `Python` `Deep Learning` `ML` | — | [💻 GitHub](https://github.com/KabirSoomro/Medical_Imaging_Assistant) |
+| **Nexus — Project Management** | Modern enterprise project management & collaboration platform with auth & dark UI | `HTML5` `CSS3` `JavaScript` `Node.js` | [🚀 Live Demo](https://code-alpha-nexus-laqo.vercel.app/) | [💻 GitHub](https://github.com/KabirSoomro/CodeAlpha_Nexus) |
+| **PortfolioAI — Dynamic Builder** | Next-gen dynamic portfolio and ATS resume builder with AI OCR extraction & PDF export | `JavaScript` `AI OCR` `CSS3` `Vercel` | [🚀 Live Demo](https://code-alpha-dynamic-portfolio-builde.vercel.app/) | [💻 GitHub](https://github.com/KabirSoomro/CodeAlpha_Dynamic-Portfolio-Builder) |
 
 ---
 
